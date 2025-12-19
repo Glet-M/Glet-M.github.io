@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <h1> Contactez-nous</h1>
+
+    <form action="/ma-page-de-traitement" method="post">
+        <fieldset class="coordonnees">
+            <legend> Vos coordonnées</legend>
+            
+            <label> Nom </label>
+            <input type="text" id="nom" name="nom" placeholder="nom" required/> 
+
+             <label> Prénom </label>
+            <input type="text" id="prenom" name="prenom" placeholder="Prenom" required/> 
+
+            <label> Téléphone </label>
+            <input type="telephone" id="telephone" name="telephone" placeholder="Telephone" required/> 
+
+            <label> Email </label>
+            <input type="email" id="email" name="email" placeholder="Email" required/> 
+            <label> Objet </label>
+            <input type="objet" id="objet" name="objet" placeholder="Objet" required/>
+
+        </fieldset>
+
+        <fieldset class="message">
+
+            <legend> Votre message </legend>
+
+            <textarea name="message" placeholder="message " required>  </textarea>
+
+        </fieldset>
+
+        <p>* Tous le champs sont obligatoire</p>
+        
+        <div class="boutons">
+            <button>EFFACER</button>
+            <button>ENVOYER</button>
+
+        </div>
+
+    </form>
+</body>
+</html>
