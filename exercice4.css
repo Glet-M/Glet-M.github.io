@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(164, 214, 197);
+}
+
+h2{
+    font-size: 17px;
+}
+
+main{
+    padding : 30px;
+    margin: 90px;
+    
+}
+
+div.groupe1{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}

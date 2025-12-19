@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercice3.css">
+    <link rel="stylesheet" href="mainnav.css" />
+    <script src="mainnav.js"></script>
+</head>
+<body>
+        <header class="entete"> En-tête </header>
+
+        <header id="mainnav" aria-label="Navigation principale">
+
+            <div>
+                <div class="mainnav__title" aria-label="Identité">
+                    <h2> NGALULA MUSANGU Glet</h2>
+                </div>
+
+                <button
+                    class="mainnav__burger"
+                    type="button"
+                    aria-label="Ouvrir le menu"
+                    aria-controls="mainnav-drawer"
+                    aria-expanded="false"
+                >
+                
+                    <span class="mainnav__burgerBars" aria-hidden="true">
+                    <span class="mainnav__bar"></span>
+                    <span class="mainnav__bar"></span>
+                    <span class="mainnav__bar"></span>
+                    </span>
+                </button>
+            </div>
+
+                <div class="mainnav__overlay" data-mainnav-close tabindex="-1" hidden></div>
+
+                    <aside
+                    id="mainnav-drawer"
+                    class="mainnav__drawer"
+                    aria-label="Menu"
+                    aria-hidden="true"
+                    hidden
+                    >
+
+                <div class="mainnav__drawerHeader">
+                    <div class="mainnav__drawerTitle">Menu</div>
+                    <button class="mainnav__close" type="button" aria-label="Fermer le menu" data-mainnav-close>
+                    ✕
+                    </button>
+                </div>
+
+                <nav>
+                    <ul class="mainnav__menu" aria-label="Liens">
+                        <li><a class="mainnav__link" href="exercice4.html">Accueil</a> </li>
+                        <li><a class="mainnav__link" href="Exercice1.html">Introduction</a> </li>
+                        <li> <a class="mainnav__link" href="exercice2.html">Galerie</a> </li>
+                        <li> <a class="mainnav__link" href="exercice3.html">Conclusion</a> </li>
+                    </ul>
+                </nav>
+        </header>
+    
+
+<main>
+    <div class="menugauche">
+        <h2>menu gauche</h2>
+        <ul>
+            <li>Lien1</li>
+            <li>Lien2</li>
+            <li>Lien3</li>
+            <li>Lien4</li>
+            <li>Lien5</li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="text"> 
+        <h1> Contenus central</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Nihil dolore officia, modi earum explicabo, iusto 
+            voluptates vero mollitia unde aliquam necessitatibus provident? Accusantium, ipsa eius pariatur omnis beatae earum non?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius laboriosam beatae nostrum. Id fuga eum, 
+            repellendus ullam optio nisi blanditiis accusantium reprehenderit molestias enim. Maxime facere et quae accusantium. <br> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, in minus ullam dolorem, architecto rem repellendus
+            natus, saepe quisquam numquam perspiciatis ipsum enim fuga praesentium! Maxime, impedit. Tempore, illum laboriosam.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae sit ut magni ad quos sint quibusdam ex enim? Quod
+            nobis, corporis at provident consequatur eum labore dolore architecto illo quos. <br> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque suscipit, sequi earum tenetur blanditiis, quae officiis
+            optio esse perspiciatis, voluptate voluptatibus saepe est excepturi repellendus fugit hic quisquam veniam adipisci!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis amet eum distinctio error excepturi libero voluptate 
+            repudiandae? Blanditiis exercitationem sit porro suscipit rerum? Reiciendis, at qui aliquid autem sapiente velit? <br> <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eos pariatur, quia at a asperiores tenetur iste! Quibusdam 
+            consequatur nostrum quod illo necessitatibus voluptatem qui nisi ad perspiciatis voluptate! Blanditiis.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id consequuntur placeat distinctio eveniet autem vitae
+            numquam, animi incidunt voluptatibus aliquid reprehenderit fugit mollitia a facere atque odio, molestias iure?<br><br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eos pariatur, quia at a asperiores tenetur iste! Quibusdam 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id consequuntur placeat distinctio eveniet autem vitae
+            numquam, animi incidunt voluptatibus aliquid reprehenderit fugit mollitia a facere atque odio, molestias iure?<br><br>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, in minus ullam dolorem, architecto rem repellendus
+            natus, saepe quisquam numquam perspiciatis ipsum enim fuga praesentium! Maxime, impedit. Tempore, illum laboriosam.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae sit ut magni ad quos sint quibusdam ex enim? Quod
+            nobis, corporis at provident consequatur eum labore dolore architecto illo quos. <br> 
+        </p>
+
+    </div> 
+    
+    <div class="menudroit">
+        <h2>menu droit</h2>
+        <ul>
+            <li>Lien1</li>
+            <li>Lien2</li>
+            <li>Lien3</li>
+            <li>Lien4</li>
+            <li>Lien5</li>
+        </ul>
+
+    </div>    
+
+</main>
+
+<footer class="footer"> footer</footer>
+</body>
+</html>
